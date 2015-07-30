@@ -18,17 +18,17 @@ In one of my website it was needed to sepatae them fully for every product. So i
 
 
 == Installation ==
-1. Upload "front-end-pm" to the "/wp-content/plugins/" directory.
+1. Upload "multisite-user-sync" to the "/wp-content/plugins/" directory.
 1. Activate the plugin through the "Plugins" menu in WordPress.
 1. **Network Activate** this plugin if you want to sync all users in all sites.
-1. Activate in Individual sites if you want to sync only users created/Change in those sites.
+1. Activate in Individual site(s) if you want to sync only users created/Changed in those site(s).
 
 
 == Frequently Asked Questions ==
 = How This Plugin Works? =
 Whene a new site is created it loop through all sites and add all users to new sites in same role. When a new user is created it loop through all sites and add this new user to all sites in same role. When a role is changed in one site it loop through all sites and chnage this role to all sites.
 
-= Can i sync users created/chnaged in perticular site(s)? =
+= Can i sync users created/changed in perticular site(s)? =
 Yes. In that case do not activate this in Network Activate. Just activate this plugin for that perticular site(s).
 
 == Screenshots ==
